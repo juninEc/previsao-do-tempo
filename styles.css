@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.container{
+    background: black;
+    opacity: 0.8;
+    padding: 25px;
+    border-radius: 25px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.input-city{
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    background-color: #7c7c7c2b;
+    width: calc(100% - 60px);
+}
+
+.button-search{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+}
+
+
+.img-search{
+    height: 20px;
+}
+
+.container-info{
+    margin-top: 20px;
+}
+.city{
+    font-size: 30px;
+    font-weight: 400;
+}
+.graus{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.container-icon{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.clima{
+    padding-left: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.umidade{
+    margin-top: 10px;
+    font-size: 20px;
+}
