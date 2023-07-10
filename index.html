@@ -1,43 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Previsão do Tempo</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <script src="scripts.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <input class="input-city" placeholder="Digite o nome da cidade" type="text">
+      <input
+        class="input-city"
+        placeholder="Digite o nome da cidade"
+        type="text"
+      />
 
-        <button class="button-search" onclick="clickSearch()">
-            <img class="img-search" src="https://www.svgrepo.com/show/488200/find.svg" alt="busca">
-        </button>
+      <button class="button-search" onclick="clickSearch()">
+        <img
+          class="img-search"
+          src="https://www.svgrepo.com/show/488200/find.svg"
+          alt="busca"
+        />
+      </button>
 
-        <div class="container-info">
-            <h1 class="city">Tempo em "CIDADE"</h1>
+      <div class="container-info">
+        <h1 class="city">Tempo em "CIDADE"</h1>
+        <div class="data-calendario">
+          <img
+            class="icon-calendario"
+            src="image/calendario.svg"
+            a
+            alt="calendário"
+          />
 
-            <p class="graus">21 °C</p>
-
-            <div class="container-icon">
-                <img class="img-icon" alt="icone-info-tempo" src="https://openweathermap.org/img/wn/04n.png">
-
-                <p class="clima">Nublado</p>
-            </div>
-
-            <p class="umidade">Umidade: 70%</p>
-
+          <p class="data">data</p>
         </div>
 
+        <div class="painel">
+          <div class="painel-left">
+            <p class="graus">21 °C</p>
+          </div>
+          <div class="painel-right">
+            <div class="container-icon">
+              <img
+                class="img-icon"
+                alt="icone-info-tempo"
+                src="https://openweathermap.org/img/wn/04n.png"
+              />
+              <p class="clima">Nublado</p>
+            </div>
+            <p class="umidade">Umidade: 70%</p>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
