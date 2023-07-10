@@ -12,3 +12,5 @@ CSS3
 JavaScript
 ### 3- API Utilizada
 OpenWeatherMap
+
+![image](https://github.com/juninEc/previsao-do-tempo/assets/78993781/57932064-3c5f-4975-8ba9-998f54862d5d)
